@@ -2,6 +2,9 @@ import "./styles.css";
 import { useState, useEffect } from "react";
 
 const App = () => {
+  
+  const [documentTitle, setDocumentTitle] = useState("");
+
   return (
     <div className="App">
       <label htmlFor="title-input">
