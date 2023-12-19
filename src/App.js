@@ -10,7 +10,7 @@ const App = () => {
       <label htmlFor="title-input">
         Type in the input and look at the browser tab!
       </label>
-      <input id="title-input" type="text" maxLength={25} />
+      <input id="title-input" type="text" maxLength={25} onChange={(e) => setDocumentTitle(e.target.value)}/>
     </div>
   );
 };
