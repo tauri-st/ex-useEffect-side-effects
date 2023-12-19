@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 const App = () => {
   
   const [documentTitle, setDocumentTitle] = useState("");
+  useEffect(() => {
+    const documentTitle = document.title;
+  })
 
   return (
     <div className="App">
