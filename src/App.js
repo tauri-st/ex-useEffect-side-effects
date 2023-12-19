@@ -6,7 +6,7 @@ const App = () => {
   const [documentTitle, setDocumentTitle] = useState("");
 
   useEffect(() => {
-    const document.title = documentTitle;
+    document.title = documentTitle;
   }, [documentTitle])
 
   const handleTitleChange = (e) => {
