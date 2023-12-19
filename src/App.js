@@ -6,7 +6,7 @@ const App = () => {
   const [documentTitle, setDocumentTitle] = useState("");
   useEffect(() => {
     const documentTitle = document.title;
-  })
+  }, [documentTitle])
 
   return (
     <div className="App">
