@@ -5,7 +5,7 @@ const App = () => {
   
   const [documentTitle, setDocumentTitle] = useState("");
   useEffect(() => {
-    const documentTitle = document.title;
+    const document.title = documentTitle;
   }, [documentTitle])
 
   return (
